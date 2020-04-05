@@ -1,0 +1,15 @@
+@import './../../utils/colors.scss';
+
+.container-fluid{
+    padding: 1em 1em 1em 1em;
+    background-color: $secondary-black;
+
+    img{
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    .title{
+        color: $primary-white;
+    }
+}
