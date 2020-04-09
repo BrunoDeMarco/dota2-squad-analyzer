@@ -7,12 +7,12 @@ export default class Header extends React.Component{
   render(){
     return (
       <Container fluid>
-        <Row className="align-items-center">
-            <Col xs={2} sm={1} className="text-center">
+        <Row className="align-items-center justify-content-center">
+            <Col xs={"auto"} className="text-center">
                 <Image src={logo}></Image>
             </Col>
-            <Col>
-                <div className="title">Dota 2 Squad Analyzer</div>
+            <Col className="title">
+                <div>Dota 2 Squad Analyzer</div>
             </Col>
         </Row>
       </Container>

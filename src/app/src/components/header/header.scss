@@ -12,4 +12,10 @@
     .title{
         color: $primary-white;
     }
+
+    @media screen and (max-width: 300px) {
+        .title{
+            display: none;
+        }
+    }
 }
